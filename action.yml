@@ -1,6 +1,6 @@
-name: matrix-msg
-description: Send a message with subject to a matrix channel
-author: Ola Bini (ola@olabini.se)
+name: matrix-file-upload
+description: Send a file with subject to a matrix channel
+author: daedric (ricardo.dra.vieira@gmail.com)
 inputs:
   server:
     description: "Matrix server hostname"
