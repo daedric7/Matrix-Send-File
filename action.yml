@@ -14,14 +14,10 @@ inputs:
     description: "Access token required to send to matrix server"
     default: ""
     required: true
-  message:
-    description: "Message to send in markdown or html format"
+  file:
+    description: "File to send"
     default: ""
-    required: true
-  subject:
-    description: "Subject of message in plaintext format"
-    default: ""
-    required: false
+    required: true    
 runs:
   using: docker
   image: 'Dockerfile'
