@@ -7,6 +7,9 @@ escape() {
 }
 
 echo "File: $INPUT_FILE"
+echo "Server: $INPUT_SERVER"
+echo "Token: $INPUT_ACCESS_TOKEN"
+echo "Room: $INPUT_ROOM_ID"
 
 content_type=$(file --brief --mime-type "$INPUT_FILE")
 
