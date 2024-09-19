@@ -21,7 +21,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
       - name: Send to Matrix
-        uses: daedric7/Matrix-Send-File@v0.2-beta4
+        uses: daedric7/Matrix-Send-File@v0.2-beta5
         with:
           room_id: ${{ secrets.MATRIX_ROOM_ID }}
           access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
