@@ -37,3 +37,5 @@ This project was primarily created by Martin Pugh (pugh@s3kr.it). This version i
 contributed back soon.
 
 I just changed the one from olabiniV2/Matrix-Message further.
+
+Alsom creddit to fabianonline/matrix.sh from where i took matrix.sh and tampered with.
