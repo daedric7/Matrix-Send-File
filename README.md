@@ -1,6 +1,6 @@
 # Matrix Message github action
 
-This is a simple github action to send files to matrix servers.
+This is a simple github action to send files to matrix servers along with a message
 
 ## Usage
 
@@ -20,12 +20,14 @@ jobs:
   matrix-file-upload:
    runs-on: ubuntu-latest
    steps:
-     - name: send message
-       uses: daedric7/Matrix-Send-File@Marketplace
-       with:
-         room_id: ${{ secrets.MATRIX_ROOM_ID }}
-         access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
-         file: /upload/this/file.txt
+      - name: Send to Matrix
+        uses: daedric7/Matrix-Send-File@v0.2-beta3
+        with:
+          room_id: ${{ secrets.MATRIX_ROOM_ID }}
+          access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
+          server: "https://how-to-reach-your-server.com"
+          file: file/to/send.zip
+          message: "Message to send"    
 ```
 
 
