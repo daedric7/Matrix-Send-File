@@ -21,7 +21,11 @@ inputs:
   message:
     description: "Message to send"
     default: ""
-    required: true   
+    required: true 
+  filename:
+    description: "Nome the file should be renamed to on uploading"
+    default: ""
+    required: false     
 runs:
   using: docker
   image: 'Dockerfile'
