@@ -7,4 +7,4 @@ echo "Message: $INPUT_MESSAGE"
 echo "Filename: $FILENAME"
 
 /matrix.sh --token=$INPUT_ACCESS_TOKEN --homeserver=$INPUT_SERVER --room=$INPUT_ROOM_ID "$INPUT_MESSAGE"
-/matrix.sh --token=$INPUT_ACCESS_TOKEN --homeserver=$INPUT_SERVER --room=$INPUT_ROOM_ID --file=$INPUT_FILE $FILENAME
+/matrix.sh --token=$INPUT_ACCESS_TOKEN --homeserver=$INPUT_SERVER --room=$INPUT_ROOM_ID --file=$INPUT_FILE "$FILENAME"
