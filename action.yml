@@ -23,9 +23,9 @@ inputs:
     default: ""
     required: true 
   filename:
-    description: "Nome the file should be renamed to on uploading"
+    description: "Name the file should be renamed to on uploading"
     default: ""
-    required: false     
+    required: true    
 runs:
   using: docker
   image: 'Dockerfile'
