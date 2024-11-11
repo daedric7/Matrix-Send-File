@@ -27,7 +27,8 @@ jobs:
           access_token: ${{ secrets.MATRIX_ACCESS_TOKEN }}
           server: "https://how-to-reach-your-server.com"
           file: file/to/send.zip
-          message: "Message to send"    
+          message: "Message to send"
+          filename: "FinalFilename.zip" #Optional    
 ```
 
 
